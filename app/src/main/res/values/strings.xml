@@ -3,16 +3,15 @@
     <string name="gretting">Registrate!</string>
 
     <!--    Buttons texts   -->
-    <string name="btn_login">
-        Registrate!
-    </string>
+    <string name="btn_login">Realizar registro</string>
 
-    <string name="btn_login_facebook">
-        Registrar con Facebook
-    </string>
+    <string name="btn_login_facebook">Registrar con Facebook</string>
 
-    <string name="btn_login_google">
-        Registrar con Google
-    </string>
+    <string name="btn_login_google">Registrar con Google</string>
+
+    <string name="registrar_nombre">Ingresa tu nombre</string>
+    <string name="registrar_correo">Ingresa tu correo</string>
+    <string name="registrar_password">Ingresa tu contraseña</string>
+    <string name="registrar_login">Si tienes cuenta inicia sesion!</string>
 
 </resources>
