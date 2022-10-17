@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">prueba2</string>
+    <string name="gretting">Registrate!</string>
+
+    <!--    Buttons texts   -->
+    <string name="btn_login">
+        Registrate!
+    </string>
+
+    <string name="btn_login_facebook">
+        Registrar con Facebook
+    </string>
+
+    <string name="btn_login_google">
+        Registrar con Google
+    </string>
+
+</resources>
