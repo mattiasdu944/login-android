@@ -130,7 +130,9 @@
 
                 <Button
                     android:id="@+id/button4"
-                    android:background="@color/white_ligth"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/gilroy_extrabold"
@@ -141,6 +143,8 @@
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/gilroy_extrabold"
                     android:paddingTop="15dp"
