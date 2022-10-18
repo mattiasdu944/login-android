@@ -8,10 +8,30 @@
     <string name="btn_login_facebook">Registrar con Facebook</string>
 
     <string name="btn_login_google">Registrar con Google</string>
-
+    <!-- Sign Up -->
     <string name="registrar_nombre">Ingresa tu nombre</string>
     <string name="registrar_correo">Ingresa tu correo</string>
     <string name="registrar_password">Ingresa tu contraseña</string>
     <string name="registrar_login">Si tienes cuenta inicia sesion!</string>
+
+    <!-- Menu Texts -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_favorites">Favoritos</string>
+    <string name="nav_add">Añadir</string>
+    <string name="nav_notifications">Notificaciones</string>
+    <string name="nav_profile">Perfil</string>
+
+
+
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 
 </resources>

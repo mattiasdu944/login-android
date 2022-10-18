@@ -11,10 +11,5 @@ class Galeria : AppCompatActivity() {
         setContentView(R.layout.activity_galeria)
 
         getSupportActionBar()?.hide();
-
-        btnRegistro.setOnClickListener{
-            val intent = Intent( this,MainActivity::class.java)
-            startActivity(intent)
-        }
     }
 }

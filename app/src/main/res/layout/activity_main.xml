@@ -54,25 +54,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="16dp">
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textColorHint="@color/white_ligth">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="#1b1b2b"
-                        android:hint="@string/registrar_correo"
-                        android:textColor="@color/white"
-                        android:textColorHint="@color/white_ligth" />
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
-
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -83,10 +64,32 @@
                         android:layout_height="wrap_content"
                         android:autofillHints="emailAddress"
                         android:background="#1b1b2b"
+                        android:inputType="text"
                         android:hint="@string/registrar_nombre"
                         android:textColor="@color/white"
                         android:textColorHint="@color/white_ligth" />
                 </com.google.android.material.textfield.TextInputLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColorHint="@color/white_ligth">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#1b1b2b"
+                        android:inputType="textEmailAddress"
+                        android:hint="@string/registrar_correo"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white_ligth" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
 
                 <Space
                     android:layout_width="match_parent"
@@ -102,6 +105,7 @@
                         android:layout_height="wrap_content"
                         android:background="#1b1b2b"
                         android:hint="@string/registrar_password"
+                        android:inputType="textPassword"
                         android:textColor="@color/white"
                         android:textColorHint="@color/white_ligth" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -110,6 +114,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:orientation="vertical"
                 android:padding="16dp">
 
@@ -117,12 +122,15 @@
                     android:id="@+id/button3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableTint="@color/white"
                     android:fontFamily="@font/gilroy_extrabold"
                     android:paddingTop="15dp"
+
                     android:paddingBottom="15dp"
                     android:text="@string/btn_login"
                     android:textColor="@color/white"
-                    />
+                    app:iconTintMode="add" />
 
                 <Space
                     android:layout_width="match_parent"
@@ -130,26 +138,29 @@
 
                 <Button
                     android:id="@+id/button4"
-                    android:backgroundTint="@color/white"
-                    android:textColor="@color/black"
-
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/google"
                     android:fontFamily="@font/gilroy_extrabold"
                     android:paddingTop="15dp"
                     android:paddingBottom="15dp"
-                    android:text="@string/btn_login_google" />
+                    android:text="@string/btn_login_google"
+                    android:textColor="@color/black" />
 
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="match_parent"
-                    android:backgroundTint="@color/white"
-                    android:textColor="@color/black"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/facebook"
+                    android:fadingEdge="horizontal"
                     android:fontFamily="@font/gilroy_extrabold"
                     android:paddingTop="15dp"
                     android:paddingBottom="15dp"
-                    android:text="@string/btn_login_facebook" />
+                    android:text="@string/btn_login_facebook"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
 
                 <Space
                     android:layout_width="match_parent"
